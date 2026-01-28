@@ -1,0 +1,45 @@
+# Visual Studio Code
+.vscode/
+
+# Go build outputs
+/bin
+/bin/
+/build/
+/dist/
+/*.exe
+/*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go tools / dependency dirs
+vendor/
+Godeps/
+_glide/
+.gopath
+
+# Module & coverage
+coverage.out
+*.prof
+
+# Environment files
+.env
+*.env
+
+# Logs, temp, editor swap
+*.log
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+
+# common temp (Gin dev tool may create tmp folders)
+tmp/

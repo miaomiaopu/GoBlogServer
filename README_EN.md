@@ -20,6 +20,13 @@ GoBlogServer is the backend application of a sample blog project based on Go (Gi
 
 ## Quick Start
 
+## build exe
+
+```powershell
+cd server
+go mod tidy
+go build -o ginvuewebblog-server.exe main.go
+```
 
 ## Contributing
 

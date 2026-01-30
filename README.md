@@ -21,6 +21,14 @@ GoBlogServer 是基于 Go(Gin) 后端的示例博客项目的后端程序，用�
 ## 快速开始
 
 
+## 编译 exe
+
+```powershell
+cd server
+go mod tidy
+go build -o ginvuewebblog-server.exe main.go
+```
+
 ## 贡献
 
 目前无法进行对 PR 和 issue 的审查同步工作。

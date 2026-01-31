@@ -43,3 +43,6 @@ Thumbs.db
 
 # common temp (Gin dev tool may create tmp folders)
 tmp/
+
+# self config files
+myconfig.yaml

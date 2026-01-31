@@ -9,6 +9,7 @@ import (
 
 // RunHTTP 启动 HTTP 服务
 func RunHTTP(cfg *conf.Config) error {
+	gin.SetMode(cfg.Server.GinMode)
 	r := gin.Default()
 
 	r.GET("/ping", func(c *gin.Context) {

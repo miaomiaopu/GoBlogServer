@@ -1,6 +1,7 @@
 # Server Configuration
 server:
   port: 8080
+  gin_mode: release
 
 # PGSQL Database Configuration
 database:

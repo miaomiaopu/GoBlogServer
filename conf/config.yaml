@@ -11,3 +11,10 @@ database:
   user: dbuser
   password: securepassword
   schema: public
+
+# Log Configuration
+log:
+  level: info
+  outputs: stdout,file
+  app_log_path: ./logs/app.log
+  error_log_path: ./logs/error.log

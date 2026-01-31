@@ -28,6 +28,8 @@ coverage.out
 *.env
 
 # Logs, temp, editor swap
+/logs
+/logs/
 *.log
 *.tmp
 *.swp

@@ -1,6 +1,10 @@
 package global
 
-import "Server/conf"
+import (
+	"Server/conf"
+
+	"gorm.io/gorm"
+)
 
 // Logger 是全局日志接口，避免依赖具体实现，避免循环依赖
 type Logger interface {
@@ -19,3 +23,4 @@ type Logger interface {
 
 var GlobalConfig *conf.Config
 var GlobalLogger Logger
+var GlobalDB *gorm.DB

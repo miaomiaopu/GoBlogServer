@@ -49,3 +49,4 @@ tmp/
 # self config files
 myconfig.yaml
 postgres.sql
+test/
